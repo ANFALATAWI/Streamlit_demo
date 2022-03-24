@@ -110,7 +110,7 @@ st.title("Number of Students in Public Education")
 df = pd.read_csv("data/SAMA_StatisticalReport_2021.csv", header=[0,1])
 df = clean(df)
 df = rename_indicies(df)
-st.dataframe(df)
+# st.dataframe(df)
 
 
 
